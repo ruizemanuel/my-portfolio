@@ -9,7 +9,7 @@ import { Hero } from './components/HeroSection';
 import { useState } from 'react';
 import { Experience } from './components/experience';
 import { Projects } from './components/Projects';
-import { ProjectDetail } from './components/ProjectDetail';
+import { ProjectDetail } from './components/Projects/ProjectDetail';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 
