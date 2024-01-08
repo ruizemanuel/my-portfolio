@@ -15,7 +15,7 @@ export const Nav = styled.div`
         trastion: 0.8s all ease;
     }
 `;
-export const NavContainer = styled.div`
+export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
