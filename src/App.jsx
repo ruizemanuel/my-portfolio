@@ -1,11 +1,12 @@
 import './App.css'
 import styled, { ThemeProvider } from 'styled-components'
-import { darkTheme } from './utils/Themes';
+import { darkTheme, lightTheme } from './utils/Themes';
 import { Navbar } from './components/Navbar';
 import { Skills } from './components/Skills';
 import { Education } from './components/Education';
 import { BrowserRouter } from 'react-router-dom';
 import { Hero } from './components/HeroSection';
+import { useState } from 'react';
 
 const Body = styled.div`
 background-color: ${({ theme }) => theme.bg};
@@ -29,9 +30,9 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-
+  const [darkMode, setDarkMode] = useState(true);
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <BrowserRouter>
         <Navbar />
         <Body>
