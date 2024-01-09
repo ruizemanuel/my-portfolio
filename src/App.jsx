@@ -7,7 +7,7 @@ import { Education } from './components/Education';
 import { BrowserRouter } from 'react-router-dom';
 import { Hero } from './components/HeroSection';
 import { useState } from 'react';
-import { Experience } from './components/experience';
+import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { ProjectDetail } from './components/Projects/ProjectDetail';
 import { Contact } from './components/Contact';
