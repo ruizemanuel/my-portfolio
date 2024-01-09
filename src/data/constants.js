@@ -197,6 +197,20 @@ export const Bio = {
         "MongoDB",
       ],
     },
+    {
+      id: 2,
+      img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADOklEQVR4AWLABUbBKADQWg8wckVRAIbHU9u2O9babhtUUW3bWu8GtYNaQW3bNoLatmbn9t908TJrJn88c768Oe/etXmMV1KZbFIV9Lv0obEKXWhsaV14fJn2EQll2kUmlmkXlVymbYdkdW6AarSMTkg6ThNJk+/hIdEafUjMIABHAZwAcALAcQDLATTJDSCnKHpBQtIH6mbzGCfPa7ghaFZpQ3D0ZACfAAgAAoALwMl2UUlWAPL8/AwD6bMb4h6ZHB7jcvysMXBGBUPQzGQA3wCINIATwJZ2EYnN2kYm5HsXtBRHv90Qe6lWdp8x+U+vZgyYsdgQOPMXAJEG+KULi1vSPjy+ZquIuAIvZEVaSSkSgJPmUOmM39sxRmbym1oXwHoAfwCINMBnFnG6Liy2QlHeinp0gFwSxFfqZ/WcoDB7TZKZfac0NftN3Wnyn+YEIP4DZr1gEfuB0BbttXSMT0Xo6BoJSY8BeFl8JuvMPlOOAUgBINIA91jEKH1wtLK4zgY5BdMTKcLqNfGcxXvSZQAuAAKAC8AZY+BMG4soL+4DSkE96YMEIAAIAAKAE8A29qC5IWB6iZ2S5WlrtgDfqZdZxEYG3/ElOjyaPuXwBL6Y/KYN4gkoi3WwwX906vBatIx+kkjrNYDrAFxmn8kibQdeAejEHhTP72/nxGNQC9pOf6VvAHUHYAJwUwIQDL/PaejQB80o2nDr/82301m3M+A2hZDC6j1JbvGeHAXgpQQgeAvO8Bo2NwZMK9KV3JHuSQa76AxZKeMRcw6o2IGRAL5LAC4AWzkNaxZmuJYGut2GKbSHWtmyuYh4A8oCWAzAmQYQAP5yEi7mJCxfpE2nP7SW6pntOd+CAGoD2A/AlQYQDP/JXTCFC0mT62CTZWzq8JrZbPpPmkdVZbLoXL/DGDg19TY0ALgtAQgAH7kNe3ElK3I46zM2fYfbpn+maZTvRwhAzhvQCcAzAD8A/ADwA8ADrmM/XVhitme8jc64bfobGkIFvskAqLiMTAACAAQACNCFxwUAaKYHIL3llAyIorskJD2iLiybqqT/+21HS2m7pE0URApZSf/ZHeOUpHFLzfB/Y6AHGAWjAAA3NQ9RJaSc+AAAAABJRU5ErkJggg==",
+      role: "Project and sales consultant",
+      company: "Xibei S.R.L",
+      date: "April 2021 - December 2023",
+      desc: "Electronic security equipment sales consultant",
+      skills: [
+        "Product Knowledge",
+        "Problem-Solving",
+        "Negotiation Skills",
+        "Active Listening",
+      ],
+    },
   ];
   
   export const education = [
