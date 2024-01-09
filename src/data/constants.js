@@ -9,7 +9,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ruizemanuel",
     resume:
-      "https://drive.google.com/file/d/1fAioON0CKtLfDVmSLsxvItIV1_kS-0sO/view?usp=drive_link",
+      "https://drive.google.com/file/d/1uCZCwkh553gCOrzg041BkMpUTPCImeAO/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/emanuel-ruiz",
     twitter: "https://twitter.com/rzdev93",
   };
@@ -267,7 +267,7 @@ export const Bio = {
       img: "https://media.licdn.com/dms/image/C4E0BAQGeb4HjTCzsFg/company-logo_100_100/0/1630632917858/universidad_tecnologica_nacional_logo?e=1712793600&v=beta&t=PjV1xdNUxjGQc1bQ_QvK0Gm8E9mVNUW_iAJClHx_oEY",
       school: "National Technological University",
       date: "February 2022",
-      desc: "In this course I developed a contact agenda using tkinter and the MVP pattern as the basis for the organization of the project.",
+      desc: "In this course I developed a contact agenda using tkinter and the MVC pattern as the basis for the organization of the project.",
       degree: "Python degree",
     },
     {
