@@ -174,10 +174,10 @@ export const Contact = () => {
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 📬</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput required maxLength={40} type='email' placeholder="Your Email" name="from_email" />
+          <ContactInput required maxLength={40} placeholder="Your Name" name="from_name" />
+          <ContactInput required maxLength={40} placeholder="Subject" name="subject" />
+          <ContactInputMessage required maxLength={200} placeholder="Message" rows="4" name="message" />
           <ContactButtonWrapper>
             {loading ? <CircularProgress style={{ 'color': '#03DAC5', 'marginTop': '2px' }} size={30} />
               :
