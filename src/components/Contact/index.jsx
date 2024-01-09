@@ -3,6 +3,9 @@ import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Snackbar from '@mui/material/Snackbar';
+import MuiAlert from '@mui/material/Alert';
+import CircularProgress from '@mui/material/CircularProgress';
+import { Portal } from '@mui/material';
 
 const Container = styled.div`
 display: flex;
@@ -103,6 +106,12 @@ const ContactInputMessage = styled.textarea`
   }
 `
 
+const ContactButtonWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
+
 const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
@@ -121,26 +130,41 @@ const ContactButton = styled.input`
   font-weight: 600;
 `
 
+const Alert = React.forwardRef(function Alert(
+  props,
+  ref,
+) {
+  return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
+});
 
 
 export const Contact = () => {
 
-  //hooks
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
     emailjs.sendForm('service_gavnqmo', 'template_xkb62r9', form.current, '_Dh8QUgAk-H_cjr0m')
       .then((result) => {
         setOpen(true);
         form.current.reset();
+        setLoading(false);
       }, (error) => {
         console.log(error.text);
+        setLoading(false);
       });
   }
 
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
 
+    setOpen(false);
+  };
 
   return (
     <Container id="contact">
@@ -153,14 +177,26 @@ export const Contact = () => {
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactButtonWrapper>
+            {loading ? <CircularProgress style={{ 'color': '#03DAC5', 'marginTop': '2px' }} size={30} />
+              :
+              (
+                <ContactButton type="submit" value="Send" disabled={loading} />
+              )}
+          </ContactButtonWrapper>
         </ContactForm>
-        <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
-        />
+        <Portal>
+          <Snackbar
+            open={open}
+            autoHideDuration={6000}
+            onClose={handleClose}
+            anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+          >
+            <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
+              Email sent successfully!
+            </Alert>
+          </Snackbar>
+        </Portal>
       </Wrapper>
     </Container>
   )
