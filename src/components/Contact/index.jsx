@@ -93,6 +93,7 @@ const ContactInput = styled.input`
 `
 
 const ContactInputMessage = styled.textarea`
+  resize: none;
   flex: 1;
   background-color: transparent;
   border: 1px solid ${({ theme }) => theme.text_secondary};
