@@ -30,8 +30,8 @@ export const Experience = () => {
                         {experiences.map((experience, index) => (
                             <TimelineItem key={experience.id}>
                                 <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    <TimelineDot variant="outlined" color="secondary" sx={{ borderColor: '#03DAC5' }}/>
+                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#03DAC5' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <ExperienceCard experience={experience}/>

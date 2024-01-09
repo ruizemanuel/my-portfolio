@@ -12,7 +12,7 @@ import {
     MobileMenu, 
     MobileLink 
 } from './NavbarStyledComponents'
-import { DiCssdeck } from 'react-icons/di';
+import { BsBriefcaseFill } from "react-icons/bs";
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { useTheme } from 'styled-components';
@@ -25,7 +25,7 @@ export const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <div style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <BsBriefcaseFill size="1.5rem" /> <Span>Porfolio</Span>
           </div>
         </NavLogo>
         <MobileIcon>

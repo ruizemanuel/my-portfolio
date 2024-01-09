@@ -107,16 +107,16 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: #03DAC5;
+  background: linear-gradient(225deg, hsla(171, 100%, 50%, 1) 0%, hsla(194, 100%, 50%, 1) 100%);
+  background: -moz-linear-gradient(225deg, hsla(171, 100%, 50%, 1) 0%, hsla(194, 100%, 50%, 1) 100%);
+  background: -webkit-linear-gradient(225deg, hsla(171, 100%, 50%, 1) 0%, hsla(194, 100%, 50%, 1) 100%);  
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
   cursor: pointer;
   border: none;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.black};
   font-size: 18px;
   font-weight: 600;
 `
@@ -148,7 +148,7 @@ export const Contact = () => {
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactTitle>Email Me 📬</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
