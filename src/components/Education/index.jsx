@@ -93,8 +93,8 @@ export const Education = () => {
                                     <EducationCard education={education}/>
                                 </TimelineContent>
                                 <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    <TimelineConnector style={{ background: '#854CE6' }} />
+                                    <TimelineDot variant="outlined" color="secondary" sx={{ borderColor: '#03DAC5' }}/>
+                                    <TimelineConnector style={{ background: '#03DAC5' }} />
                                 </TimelineSeparator>
                             </TimelineItem>
                         ))}

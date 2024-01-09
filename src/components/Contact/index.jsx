@@ -3,6 +3,9 @@ import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Snackbar from '@mui/material/Snackbar';
+import MuiAlert from '@mui/material/Alert';
+import CircularProgress from '@mui/material/CircularProgress';
+import { Portal } from '@mui/material';
 
 const Container = styled.div`
 display: flex;
@@ -90,6 +93,7 @@ const ContactInput = styled.input`
 `
 
 const ContactInputMessage = styled.textarea`
+  resize: none;
   flex: 1;
   background-color: transparent;
   border: 1px solid ${({ theme }) => theme.text_secondary};
@@ -103,44 +107,65 @@ const ContactInputMessage = styled.textarea`
   }
 `
 
+const ContactButtonWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
+
 const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: #03DAC5;
+  background: linear-gradient(225deg, hsla(171, 100%, 50%, 1) 0%, hsla(194, 100%, 50%, 1) 100%);
+  background: -moz-linear-gradient(225deg, hsla(171, 100%, 50%, 1) 0%, hsla(194, 100%, 50%, 1) 100%);
+  background: -webkit-linear-gradient(225deg, hsla(171, 100%, 50%, 1) 0%, hsla(194, 100%, 50%, 1) 100%);  
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
   cursor: pointer;
   border: none;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.black};
   font-size: 18px;
   font-weight: 600;
 `
 
+const Alert = React.forwardRef(function Alert(
+  props,
+  ref,
+) {
+  return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
+});
 
 
 export const Contact = () => {
 
-  //hooks
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
     emailjs.sendForm('service_gavnqmo', 'template_xkb62r9', form.current, '_Dh8QUgAk-H_cjr0m')
       .then((result) => {
         setOpen(true);
         form.current.reset();
+        setLoading(false);
       }, (error) => {
         console.log(error.text);
+        setLoading(false);
       });
   }
 
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
 
+    setOpen(false);
+  };
 
   return (
     <Container id="contact">
@@ -148,19 +173,31 @@ export const Contact = () => {
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactTitle>Email Me 📬</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactButtonWrapper>
+            {loading ? <CircularProgress style={{ 'color': '#03DAC5', 'marginTop': '2px' }} size={30} />
+              :
+              (
+                <ContactButton type="submit" value="Send" disabled={loading} />
+              )}
+          </ContactButtonWrapper>
         </ContactForm>
-        <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
-        />
+        <Portal>
+          <Snackbar
+            open={open}
+            autoHideDuration={6000}
+            onClose={handleClose}
+            anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+          >
+            <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
+              Email sent successfully!
+            </Alert>
+          </Snackbar>
+        </Portal>
       </Wrapper>
     </Container>
   )

@@ -141,7 +141,6 @@ export const ProjectCard = ({project,setOpenModal}) => {
                     <Avatar key={index} src={member.img}/>
                 ))}
             </Members>
-            {/* <Button>View Project</Button> */}
         </Card>
     )
 }
