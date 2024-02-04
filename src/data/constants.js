@@ -79,9 +79,9 @@ export const Bio = {
         },
         {
           id: 2,
-          name: "Python",
+          name: ".NET",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+            "https://assets-global.website-files.com/6047a9e35e5dc54ac86ddd90/63064f1fedf422395124660e_e7d03466-p-800.png",
         },
         {
           id: 3,
@@ -91,12 +91,18 @@ export const Bio = {
         },
         {
           id: 4,
+          name: "SQL Server",
+          image:
+            "https://storage.googleapis.com/external-docs-assets/logos/mssql.png",
+        },
+        {
+          id: 5,
           name: "MongoDB",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
         },
         {
-          id: 5,
+          id: 6,
           name: "Firebase",
           image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
         },
@@ -355,6 +361,24 @@ export const Bio = {
       category: "android app",
       github: "https://github.com/ruizemanuel/escuela-patagonica",
       webapp: "https://drive.google.com/drive/u/2/folders/1hIxClE-eJTDtEi0l7vkSD9FnW52-BEol",
+    },
+    {
+      id: 5,
+      title: "Angular Blog Project",
+      date: "January 2024 - Febreuary 2024",
+      description:
+        "This project is a blog developed with Angular, utilizing various libraries and tools to provide an advanced blogging experience such as a complete CRUD for the blog entries with the possibility of using a link to add an image or directly uploading from the user's computer. Can be tested out with #User: admin@blogapp.com; Password: Admin@123",
+      image:
+        "https://res.cloudinary.com/dghfnsny0/image/upload/v1707004544/w12nxjcnmmsmurtfbgip.png",
+      tags: [
+        "Angular",
+        ".NET",
+        "SQL Server",
+        "Entity Framework"
+      ],
+      category: "web app",
+      github: "https://github.com/ruizemanuel/BlogApp-UI-Angular",
+      webapp: "https://blogapp-emanuelruiz.netlify.app/",
     },
   ];
   
