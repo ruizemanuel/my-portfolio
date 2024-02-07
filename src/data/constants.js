@@ -85,24 +85,30 @@ export const Bio = {
         },
         {
           id: 3,
+          name: "Java",
+          image:
+            "https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem.jpg",
+        },
+        {
+          id: 4,
           name: "MySQL",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
         },
         {
-          id: 4,
+          id: 5,
           name: "SQL Server",
           image:
             "https://storage.googleapis.com/external-docs-assets/logos/mssql.png",
         },
         {
-          id: 5,
+          id: 6,
           name: "MongoDB",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
         },
         {
-          id: 6,
+          id: 7,
           name: "Firebase",
           image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
         },
@@ -177,12 +183,13 @@ export const Bio = {
       role: "Fullstack Developer",
       company: "Tensolite S.A",
       date: "August 2023 - Present",
-      desc: "Working on the company's own softwares using technologies like React & Laravel",
+      desc: "Working on the company's own softwares using technologies like React, .NET and Java",
       skills: [
         "React Js",
         "Redux",
         "JavaScript",
-        "Laravel",
+        ".NET",
+        "Java",
         "MySQL",
         "Blade",
         "Jira",
