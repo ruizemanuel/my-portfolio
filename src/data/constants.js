@@ -91,24 +91,30 @@ export const Bio = {
         },
         {
           id: 4,
+          name: "Laravel",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png",
+        },
+        {
+          id: 5,
           name: "MySQL",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
         },
         {
-          id: 5,
+          id: 6,
           name: "SQL Server",
           image:
             "https://storage.googleapis.com/external-docs-assets/logos/mssql.png",
         },
         {
-          id: 6,
+          id: 7,
           name: "MongoDB",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
         },
         {
-          id: 7,
+          id: 8,
           name: "Firebase",
           image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
         },
@@ -190,6 +196,7 @@ export const Bio = {
         "JavaScript",
         ".NET",
         "Java",
+        "Laravel",
         "MySQL",
         "Blade",
         "Jira",
