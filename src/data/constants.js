@@ -236,7 +236,7 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/C4D0BAQE0iRUqSJueUw/company-logo_100_100/0/1631348364654?e=1712793600&v=beta&t=8DIJn2qqQSYBE2l7YWECaIYGp0QpsyIBcH1RNm9QK3c",
+      img: "https://www.efset.org/static/iconset/generic/icon@2x.png",
       school: "EF SET",
       date: "January 2024",
       desc: "EF Standard English Test (EF SET)",
@@ -244,7 +244,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://media.licdn.com/dms/image/C560BAQFoa8hfan0wPg/company-logo_100_100/0/1641586024351/rollingcode_school_logo?e=1712793600&v=beta&t=iShpimULQ77F28mbzE_poAoCN9HjEjzQHScwzkgea88",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScahs7MB8GcE6Msj8AMnb5g16itCpVylxQRA&s",
       school: "RollingCode School",
       date: "December 2023",
       desc: "Learned Advanced technics in apps made with Expo",
@@ -252,7 +252,7 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "https://media.licdn.com/dms/image/C4E0BAQFdNatYGiBelg/company-logo_100_100/0/1636138754252/facebook_logo?e=1712793600&v=beta&t=knVVkhGVTE8I9tfaExFjvdpgaLr2eHK1Aw493c608-s",
+      img: "https://www.shutterstock.com/image-vector/gomel-belarus-november-23-2023-600nw-2397966501.jpg",
       school: "Meta - Coursera.org",
       date: "May 2023",
       desc: "Learned Advanced concepts of React like the different ways to manage the state of an app",
@@ -260,7 +260,7 @@ export const Bio = {
     },
     {
       id: 3,
-      img: "https://media.licdn.com/dms/image/C560BAQFoa8hfan0wPg/company-logo_100_100/0/1641586024351/rollingcode_school_logo?e=1712793600&v=beta&t=iShpimULQ77F28mbzE_poAoCN9HjEjzQHScwzkgea88",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScahs7MB8GcE6Msj8AMnb5g16itCpVylxQRA&s",
       school: "RollingCode School",
       date: "April 2023",
       desc: "In this course I learned all the necessary concepts to become a MERN developer.",
@@ -268,7 +268,7 @@ export const Bio = {
     },
     {
       id: 4,
-      img: "https://media.licdn.com/dms/image/C4E0BAQGeb4HjTCzsFg/company-logo_100_100/0/1630632917858/universidad_tecnologica_nacional_logo?e=1712793600&v=beta&t=PjV1xdNUxjGQc1bQ_QvK0Gm8E9mVNUW_iAJClHx_oEY",
+      img: "https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg",
       school: "National Technological University",
       date: "September 2022",
       desc: "Learned concepts like UX Research, UserPersona, MVP, UX Writing, Atomic Design, Design on Figma, etc.",
@@ -276,7 +276,7 @@ export const Bio = {
     },
     {
       id: 5,
-      img: "https://media.licdn.com/dms/image/C4E0BAQGeb4HjTCzsFg/company-logo_100_100/0/1630632917858/universidad_tecnologica_nacional_logo?e=1712793600&v=beta&t=PjV1xdNUxjGQc1bQ_QvK0Gm8E9mVNUW_iAJClHx_oEY",
+      img: "https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg",
       school: "National Technological University",
       date: "August 2022",
       desc: "In this course, I gained a comprehensive understanding of all the essential concepts needed to pursue a career as a MERN stack developer.",
@@ -284,7 +284,7 @@ export const Bio = {
     },
     {
       id: 6,
-      img: "https://media.licdn.com/dms/image/C4E0BAQGeb4HjTCzsFg/company-logo_100_100/0/1630632917858/universidad_tecnologica_nacional_logo?e=1712793600&v=beta&t=PjV1xdNUxjGQc1bQ_QvK0Gm8E9mVNUW_iAJClHx_oEY",
+      img: "https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg",
       school: "National Technological University",
       date: "February 2022",
       desc: "In this course I developed a contact agenda using tkinter and the MVC pattern as the basis for the organization of the project.",
@@ -292,7 +292,7 @@ export const Bio = {
     },
     {
       id: 7,
-      img: "https://media.licdn.com/dms/image/C4D0BAQGajAD_Ylxfaw/company-logo_100_100/0/1630476967229/genexus_artech_logo?e=1712793600&v=beta&t=Mo1D_cRHsPMlvaf3lyzs3ilNhsC9Bktp6pqxesuwTx0",
+      img: "https://media.licdn.com/dms/image/v2/C4D0BAQGajAD_Ylxfaw/company-logo_200_200/company-logo_200_200/0/1630476967229/genexus_artech_logo?e=2147483647&v=beta&t=cWdBxkg00bHaXfnN3cJ1HZjaQcnhfvlSVg7C1Wbwi2M",
       school: "GeneXus",
       date: "December 2019",
       desc: "In this certification I learned how to use the Genexus 16 low code enterprise development platform.",
@@ -375,31 +375,5 @@ export const Bio = {
       category: "android app",
       github: "https://github.com/ruizemanuel/escuela-patagonica",
       webapp: "https://drive.google.com/drive/u/2/folders/1hIxClE-eJTDtEi0l7vkSD9FnW52-BEol",
-    },
-    {
-      id: 5,
-      title: "Angular Blog Project",
-      date: "January 2024 - Febreuary 2024",
-      description:
-        "This project is a blog developed with Angular, utilizing various libraries and tools to provide an advanced blogging experience such as a complete CRUD for the blog entries with the possibility of using a link to add an image or directly uploading from the user's computer. Can be tested out with #User: admin@blogapp.com; Password: Admin@123",
-      image:
-        "https://res.cloudinary.com/dghfnsny0/image/upload/v1707004544/w12nxjcnmmsmurtfbgip.png",
-      tags: [
-        "Angular",
-        ".NET",
-        "SQL Server",
-        "Entity Framework"
-      ],
-      category: "web app",
-      github: "https://github.com/ruizemanuel/BlogApp-UI-Angular",
-      webapp: "https://blogapp-emanuelruiz.netlify.app/",
-    },
-  ];
-  
-  export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
+    }
   ];

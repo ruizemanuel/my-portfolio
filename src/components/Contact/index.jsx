@@ -148,7 +148,7 @@ export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.sendForm('service_gavnqmo', 'template_xkb62r9', form.current, '_Dh8QUgAk-H_cjr0m')
+    emailjs.sendForm('service_gax02mi', 'template_xkb62r9', form.current, '_Dh8QUgAk-H_cjr0m')
       .then((result) => {
         setOpen(true);
         form.current.reset();
