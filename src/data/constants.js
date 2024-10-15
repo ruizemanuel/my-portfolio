@@ -188,7 +188,7 @@ export const Bio = {
       img: "https://media.licdn.com/dms/image/C4D0BAQGFzmnYLd3PdQ/company-logo_200_200/0/1630526761754/tensolite_logo?e=2147483647&v=beta&t=8BFTFN33cQZHgDJFGpt69GeTDsskS5pEJDJEhXZfG1o",
       role: "Fullstack Developer",
       company: "Tensolite S.A",
-      date: "August 2023 - Present",
+      date: "August 2023 - March 2024",
       desc: "Working on the company's own softwares using technologies like React, .NET and Java",
       skills: [
         "React Js",
