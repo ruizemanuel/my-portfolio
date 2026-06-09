@@ -7,11 +7,10 @@ import {
     Img, 
     HeroRightContainer, 
     HeroInnerContainer, 
-    TextLoop, 
-    Title, 
-    Span, 
-    SubTitle, 
-    ResumeButton } 
+    TextLoop,
+    Title,
+    Span,
+    SubTitle }
     from './HeroStyles'
 import ProfilePic from '../../assets/ProfilePic.png'
 import Typewriter from 'typewriter-effect';
@@ -40,7 +39,6 @@ export const Hero = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
