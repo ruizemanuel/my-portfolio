@@ -142,6 +142,7 @@ const Alert = React.forwardRef(function Alert(
 export const Contact = () => {
 
   const [open, setOpen] = useState(false);
+  const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
   const form = useRef();
 
@@ -149,12 +150,13 @@ export const Contact = () => {
     e.preventDefault();
     setLoading(true);
     emailjs.sendForm('service_gax02mi', 'template_xkb62r9', form.current, '_Dh8QUgAk-H_cjr0m')
-      .then((result) => {
+      .then(() => {
         setOpen(true);
         form.current.reset();
         setLoading(false);
-      }, (error) => {
-        console.log(error.text);
+      }, (err) => {
+        console.log(err.text);
+        setError(true);
         setLoading(false);
       });
   }
@@ -165,6 +167,7 @@ export const Contact = () => {
     }
 
     setOpen(false);
+    setError(false);
   };
 
   return (
@@ -195,6 +198,16 @@ export const Contact = () => {
           >
             <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
               Email sent successfully!
+            </Alert>
+          </Snackbar>
+          <Snackbar
+            open={error}
+            autoHideDuration={6000}
+            onClose={handleClose}
+            anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+          >
+            <Alert onClose={handleClose} severity="error" sx={{ width: '100%' }}>
+              Failed to send your message. Please try again.
             </Alert>
           </Snackbar>
         </Portal>

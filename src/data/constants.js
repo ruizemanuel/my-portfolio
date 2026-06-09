@@ -11,7 +11,7 @@ export const Bio = {
     resume:
       "https://drive.google.com/file/d/1TYGlnRj5UCttE4a5GlR-zkjsgq_bl9zD/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/emanuel-ruiz",
-    twitter: "https://twitter.com/rzdev93",
+    twitter: "https://x.com/ruizemanueldev",
   };
   
   export const skills = [
@@ -40,13 +40,13 @@ export const Bio = {
           id: 3,
           name: "CSS",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+            "https://images.seeklogo.com/logo-png/18/1/css3-logo-png_seeklogo-186678.png",
         },
         {
           id: 4,
           name: "JavaScript",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/500px-JavaScript-logo.png",
         },
         {
           id: 5,
@@ -59,6 +59,21 @@ export const Bio = {
           name: "Material UI",
           image:
             "data:image/png;base64,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",
+        },
+        {
+          id: 7,
+          name: "TypeScript",
+          image: "/skills/typescript.svg",
+        },
+        {
+          id: 8,
+          name: "Next.js",
+          image: "/skills/nextjs.svg",
+        },
+        {
+          id: 9,
+          name: "Tailwind CSS",
+          image: "/skills/tailwind.svg",
         },
       ],
     },
@@ -93,7 +108,7 @@ export const Bio = {
           id: 4,
           name: "Laravel",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/250px-Laravel.svg.png",
         },
         {
           id: 5,
@@ -105,7 +120,7 @@ export const Bio = {
           id: 6,
           name: "SQL Server",
           image:
-            "https://storage.googleapis.com/external-docs-assets/logos/mssql.png",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdDLpldNLPZn_2xZcPDPeVUgAucG0LnOODrA&s",
         },
         {
           id: 7,
@@ -118,11 +133,21 @@ export const Bio = {
           name: "Firebase",
           image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
         },
+        {
+          id: 9,
+          name: "Spring Boot",
+          image: "/skills/springboot.svg",
+        },
+        {
+          id: 10,
+          name: "PostgreSQL",
+          image: "/skills/postgresql.svg",
+        },
       ],
     },
     {
       id: 2,
-      title: "Mobile Develop",
+      title: "Mobile Development",
       skills: [
         {
           id: 0,
@@ -135,6 +160,63 @@ export const Bio = {
           name: "Flutter",
           image:
             "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: "Web3 / Blockchain",
+      skills: [
+        {
+          id: 0,
+          name: "Solidity",
+          image: "/skills/solidity.svg",
+        },
+        {
+          id: 1,
+          name: "wagmi",
+          image: "/skills/wagmi.svg",
+        },
+        {
+          id: 2,
+          name: "thirdweb",
+          image: "/skills/thirdweb.svg",
+        },
+        {
+          id: 3,
+          name: "Ethereum",
+          image: "/skills/ethereum.svg",
+        },
+        {
+          id: 4,
+          name: "Solana",
+          image: "/skills/solana.svg",
+        },
+      ],
+    },
+    {
+      id: 5,
+      title: "AI / GenAI",
+      skills: [
+        {
+          id: 0,
+          name: "Claude",
+          image: "/skills/claude.svg",
+        },
+        {
+          id: 1,
+          name: "OpenAI",
+          image: "/skills/openai.svg",
+        },
+        {
+          id: 2,
+          name: "Hugging Face",
+          image: "/skills/huggingface.svg",
+        },
+        {
+          id: 3,
+          name: "ElevenLabs",
+          image: "/skills/elevenlabs.svg",
         },
       ],
     },
@@ -164,7 +246,7 @@ export const Bio = {
           id: 3,
           name: "VS Code",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/960px-Visual_Studio_Code_1.35_icon.svg.png",
         },
         {
           id: 4,
@@ -185,7 +267,39 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/C4D0BAQGFzmnYLd3PdQ/company-logo_200_200/0/1630526761754/tensolite_logo?e=2147483647&v=beta&t=8BFTFN33cQZHgDJFGpt69GeTDsskS5pEJDJEhXZfG1o",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdQINi1DY2CWv0i8z-YkNP8B3z5KvhBznJAw&s",
+      role: "Full Stack Software Developer",
+      company: "Samprand",
+      date: "August 2025 - Present",
+      desc: "Building full-stack solutions across a wide range of technologies — Flutter and React Native mobile apps, React + Spring Boot and Next.js web platforms, Wix sites, and AI agents.",
+      skills: [
+        "Flutter",
+        "React Js",
+        "Spring Boot",
+        "Next.js",
+        "React Native",
+        "Wix",
+        "AI Agents",
+      ],
+    },
+    {
+      id: 1,
+      img: "https://media.licdn.com/dms/image/v2/D560BAQGppg_SIVolcw/company-logo_100_100/B56Z45XUDRHEAI-/0/1779078873572/scaleai_logo?e=1782345600&v=beta&t=iTUP1reFhiNV4Ft01uP4nfWP_gGCpqMAQlf7aHjwFd4",
+      role: "AI Training Consultant",
+      company: "Scale AI",
+      date: "March 2024 - August 2025",
+      desc: "Built and audited datasets to train LLMs, evaluated AI-generated code, and onboarded contributors to work on large-scale code projects.",
+      skills: [
+        "LLMs",
+        "Dataset Curation",
+        "Code Review",
+        "AI Evaluation",
+        "Onboarding",
+      ],
+    },
+    {
+      id: 2,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimPykM6L1C9dtQrh1s2BBXtDHbJtMBwZqBw&s",
       role: "Fullstack Developer",
       company: "Tensolite S.A",
       date: "August 2023 - March 2024",
@@ -203,7 +317,7 @@ export const Bio = {
       ],
     },
     {
-      id: 1,
+      id: 3,
       img: "https://www.educaciontuc.gov.ar/wp-content/uploads/2023/11/logo-gobierno-tucuman-horizontal.png",
       role: "React Native Developer",
       company: "Ministry of Education - Tucumán",
@@ -218,7 +332,7 @@ export const Bio = {
       ],
     },
     {
-      id: 2,
+      id: 4,
       img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADOklEQVR4AWLABUbBKADQWg8wckVRAIbHU9u2O9babhtUUW3bWu8GtYNaQW3bNoLatmbn9t908TJrJn88c768Oe/etXmMV1KZbFIV9Lv0obEKXWhsaV14fJn2EQll2kUmlmkXlVymbYdkdW6AarSMTkg6ThNJk+/hIdEafUjMIABHAZwAcALAcQDLATTJDSCnKHpBQtIH6mbzGCfPa7ghaFZpQ3D0ZACfAAgAAoALwMl2UUlWAPL8/AwD6bMb4h6ZHB7jcvysMXBGBUPQzGQA3wCINIATwJZ2EYnN2kYm5HsXtBRHv90Qe6lWdp8x+U+vZgyYsdgQOPMXAJEG+KULi1vSPjy+ZquIuAIvZEVaSSkSgJPmUOmM39sxRmbym1oXwHoAfwCINMBnFnG6Liy2QlHeinp0gFwSxFfqZ/WcoDB7TZKZfac0NftN3Wnyn+YEIP4DZr1gEfuB0BbttXSMT0Xo6BoJSY8BeFl8JuvMPlOOAUgBINIA91jEKH1wtLK4zgY5BdMTKcLqNfGcxXvSZQAuAAKAC8AZY+BMG4soL+4DSkE96YMEIAAIAAKAE8A29qC5IWB6iZ2S5WlrtgDfqZdZxEYG3/ElOjyaPuXwBL6Y/KYN4gkoi3WwwX906vBatIx+kkjrNYDrAFxmn8kibQdeAejEHhTP72/nxGNQC9pOf6VvAHUHYAJwUwIQDL/PaejQB80o2nDr/82301m3M+A2hZDC6j1JbvGeHAXgpQQgeAvO8Bo2NwZMK9KV3JHuSQa76AxZKeMRcw6o2IGRAL5LAC4AWzkNaxZmuJYGut2GKbSHWtmyuYh4A8oCWAzAmQYQAP5yEi7mJCxfpE2nP7SW6pntOd+CAGoD2A/AlQYQDP/JXTCFC0mT62CTZWzq8JrZbPpPmkdVZbLoXL/DGDg19TY0ALgtAQgAH7kNe3ElK3I46zM2fYfbpn+maZTvRwhAzhvQCcAzAD8A/ADwA8ADrmM/XVhitme8jc64bfobGkIFvskAqLiMTAACAAQACNCFxwUAaKYHIL3llAyIorskJD2iLiybqqT/+21HS2m7pE0URApZSf/ZHeOUpHFLzfB/Y6AHGAWjAAA3NQ9RJaSc+AAAAABJRU5ErkJggg==",
       role: "Project and sales consultant",
       company: "Xibei S.R.L",
@@ -235,12 +349,28 @@ export const Bio = {
   
   export const education = [
     {
+      id: 8,
+      img: "https://media.licdn.com/dms/image/v2/C4D0BAQEhR74nz4kJ6g/company-logo_100_100/company-logo_100_100/0/1648406543324/vanderbilt_university_logo?e=1782345600&v=beta&t=rmOE5z705nntOztVA73WHxb0IT7Ck273cVDBt6kjDm0",
+      school: "Vanderbilt University",
+      date: "April 2026",
+      desc: "Hands-on AI-powered software engineering: orchestrating Claude Code agents to build full-stack apps, developing Python autonomous agents for complex multi-step workflows, and engineering advanced prompts and custom GPTs.",
+      degree: "Generative AI Software Engineering",
+    },
+    {
       id: 0,
-      img: "https://www.efset.org/static/iconset/generic/icon@2x.png",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOR4dthqoBpBogEkuIk672jrJj-BttJPwdQ&s",
       school: "EF SET",
       date: "January 2024",
       desc: "EF Standard English Test (EF SET)",
       degree: "C2 Proficient",
+    },
+    {
+      id: 9,
+      img: "https://media.licdn.com/dms/image/v2/D4D0BAQHk6wxdrenCpg/company-logo_100_100/company-logo_100_100/0/1698875993396/smalltalk2me_logo?e=1782345600&v=beta&t=w_ithVOfbkqkW8Cey4wFV2-4rTdBS0YHyLtlk9RB_B4",
+      school: "SmallTalk2Me",
+      date: "January 2024",
+      desc: "English Speaking Test",
+      degree: "B2 Upper-Intermediate",
     },
     {
       id: 1,
@@ -303,6 +433,75 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "Onze",
+      date: "May 2026 - Present",
+      description:
+        "No-loss on-chain fantasy football on Celo for the World Cup 2026. Build your starting XI for each phase and compete for a prize pool funded by Aave V3 yield on a USDT seed — your $1 deposit is always withdrawable, so you never lose. Picks suggested by an ERC-8004 verified AI Coach.",
+      image: "/projects/onze.png",
+      tags: [
+        "Next.js",
+        "Solidity",
+        "Hardhat",
+        "wagmi",
+        "viem",
+        "Aave V3",
+        "Celo",
+        "ERC-8004",
+        "Tailwind",
+        "Postgres",
+      ],
+      category: "web app",
+      github: "https://github.com/ruizemanuel/onze",
+      webapp: "https://onze-beta.vercel.app",
+    },
+    {
+      id: 1,
+      title: "VozPay",
+      date: "May 2026",
+      description:
+        "Voice-first stablecoin payments over WhatsApp, settled on Solana. Send USDC with a WhatsApp voice note: Whisper transcribes it, a small LLM extracts the intent, and a Privy server wallet signs the transfer — logged on-chain by an Anchor program that enforces daily and monthly limits. ElevenLabs replies with an audio confirmation. Built for the Dev3pack Global Hackathon.",
+      image: "/projects/vozpay.png",
+      tags: [
+        "Solana",
+        "Anchor",
+        "Next.js",
+        "Whisper",
+        "ElevenLabs",
+        "Privy",
+        "WhatsApp",
+        "Drizzle",
+        "USDC",
+      ],
+      category: "web app",
+      github: "https://github.com/ruizemanuel/vozpay",
+      webapp: "https://vozpay-web.vercel.app",
+    },
+    {
+      id: 2,
+      title: "pay-chat",
+      date: "April 2026",
+      description:
+        "AI assistant inside MiniPay that reads Celo on-chain data, paid per query in USDT. Paste a tx hash or contract address and get a plain-language explanation fetched live from Celo RPC and the Etherscan V2 API. Every answer costs $0.02 USDT, settled on Celo Mainnet via the x402 protocol with an EIP-2612 permit (no gas for the user) and a verifiable on-chain receipt.",
+      image: "/projects/pay-chat.png",
+      tags: [
+        "Next.js",
+        "TypeScript",
+        "Solidity",
+        "Hardhat",
+        "viem",
+        "wagmi",
+        "thirdweb",
+        "x402",
+        "Celo",
+        "MiniPay",
+        "Groq",
+      ],
+      category: "web app",
+      github: "https://github.com/ruizemanuel/pay-chat",
+      webapp: "https://pay-chat-nine.vercel.app",
+    },
+    {
+      id: 3,
       title: "Rolling Restaurant App",
       date: "August 2023 - November 2023",
       description:
@@ -323,20 +522,7 @@ export const Bio = {
       webapp: "https://qr.expo.dev/eas-update?updateId=1c1da2dd-ec9f-4988-beb6-e425b9b04f6b&appScheme=exp&host=u.expo.dev",
     },
     {
-      id: 1,
-      title: "Marvel",
-      date: "June 2023",
-      description:
-        "This is a website that consumes the Marvel API. Shows a list of characters, comics and allows to search for both of them. Also displays a modal and a page for every single character and comic.",
-      image:
-        "https://res.cloudinary.com/dghfnsny0/image/upload/v1704735760/ldtk2rjf1dsdonbyt6ut.png",
-      tags: ["React Js", "React Router DOM", "Boostrap"],
-      category: "web app",
-      github: "https://github.com/ruizemanuel/marvel",
-      webapp: "https://ruizemanuel.github.io/marvel",
-    },
-    {
-      id: 2,
+      id: 4,
       title: "Tetris",
       date: "December 2023",
       description:
@@ -351,7 +537,7 @@ export const Bio = {
       webapp: "https://tetris-emanuelruiz.netlify.app/",
     },
     {
-      id: 3,
+      id: 5,
       title: "Bitcoin Argentina",
       date: "November 2020",
       description:
@@ -364,7 +550,7 @@ export const Bio = {
       webapp: "https://play.google.com/store/apps/details?id=co.rzsoft.bitcoinargentina",
     },
     {
-      id: 4,
+      id: 6,
       title: "Escuela Patagonica",
       date: "November 2020",
       description:
