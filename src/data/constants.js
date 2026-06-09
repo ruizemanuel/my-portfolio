@@ -519,7 +519,7 @@ export const Bio = {
       ],
       category: "android app",
       github: "https://github.com/ruizemanuel/RollingRestaurantApp",
-      webapp: "https://qr.expo.dev/eas-update?updateId=1c1da2dd-ec9f-4988-beb6-e425b9b04f6b&appScheme=exp&host=u.expo.dev",
+      webapp: "https://expo.dev/accounts/ema1993/projects/RollingRestaurant/builds/9e7335b5-14fa-4c2e-b0aa-cd3de496a732",
     },
     {
       id: 4,
